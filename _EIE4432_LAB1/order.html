@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="C:\Users\joe\Desktop\eie4432\_EIE4432_LAB1\styles\order.css">
+    <title>20075335d_Drink Ordering Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Drink Ordering System </h1>     
+        
+    </header>
+    <nav>
+        
+            <ul style="list-style-type: circle;">
+                <li><a href="#">Home</a></li>
+                <li><a class="currentPage" href="#">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+    </nav>
+    <main>
+        <form action=# method="post">
+            <div class="name-input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="drink-select">
+                <label for="drink">Drink:</label>
+                <select id="drink" name="drink">
+                    <option value="Bubble Milktea">Bubble Milktea</option>
+                    <option value="Iced Latte">Iced Latte</option>
+                </select>
+            </div>
+            <div class="size-select">
+                <label for="size">Size:</label>
+                <input type="radio" id="small" name="size" value=false>
+                <label for="small">small</label>
+                <input type="radio" id="medium" name="size" value=false>
+                <label for="medium">medium</label>
+                <input type="radio" id="large" name="size" value=false>
+                <label for="large">large</label>
+            </div>
+            <div class="submission">
+                <input type="submit" value="Place Order">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>©20075335d JiangLinAo - EIE4432 Lab 1 project </p>
+    </footer>
+
+</body>
+</html>
